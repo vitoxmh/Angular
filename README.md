@@ -21,6 +21,11 @@ export interface Persona{
   edad: int;
 
 }
-```
-
-
+## Evento Click
+```ts
+(click)="onClickNameHero(elheroe);
+```ts
+## For
+```ts
+*ngFor="let elheroe of hero"
+```ts
