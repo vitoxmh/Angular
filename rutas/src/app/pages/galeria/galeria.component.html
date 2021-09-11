@@ -1,0 +1,5 @@
+<p>galeria works!</p>
+<div class="gallery">
+    <a *ngFor="let foto of listFoto" [routerLink]="['/photo', foto.id]" ><img class="gallery__image"  src="{{ foto.tumblr}}"></a>
+</div>
+ 
